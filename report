@@ -1,0 +1,76 @@
+<?php
+require_once '../auth/guard.php';
+require_once __DIR__.'/../config/db.php';
+
+$from = $_GET['from'] ?? date('Y-m-d', strtotime('monday this week'));
+$to   = $_GET['to']   ?? date('Y-m-d', strtotime('sunday this week'));
+
+$sql = "
+ SELECT p.id,
+        b.cedula,
+        b.nombres,
+        p.pay_date,
+        p.pay_amount_bs,
+        p.pay_ref,
+        i.loan_id
+ FROM installments i
+ JOIN loans l      ON l.id = i.loan_id
+ JOIN borrowers b  ON b.id = l.borrower_id
+ JOIN payments p   ON p.installment_id = i.id         /* si llevas tabla payments */
+ WHERE p.pay_date BETWEEN '$from' AND '$to'
+ ORDER BY p.pay_date, b.nombres";
+$res = $mysqli->query($sql);
+
+?>
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><title>Pagos semana <?= $from ?> a <?= $to ?></title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body>
+<?php include '../nav.php'; ?>
+<div class="container">
+<h1>Pagos del <?= date('d/m/Y',strtotime($from)) ?> al <?= date('d/m/Y',strtotime($to)) ?></h1>
+
+<form method="get" class="card grid-2" style="gap:.5rem">
+  <label>Desde <input type="date" name="from" value="<?= $from ?>"></label>
+  <label>Hasta <input type="date" name="to"   value="<?= $to ?>"></label>
+  <button style="grid-column:span 2">Filtrar</button>
+</form>
+
+<!-- Tabla -->
+<div class="table-wrapper">
+<table class="tbl">
+<thead><tr>
+ <th>#</th><th>Cédula</th><th>Nombre</th><th>Fecha</th><th>Monto Bs</th><th>Ref.</th><th>Préstamo</th>
+</tr></thead><tbody>
+<?php $tot=0; while($r=$res->fetch_assoc()): $tot+=$r['pay_amount_bs']; ?>
+<tr>
+ <td><?= $r['id'] ?></td>
+ <td><?= $r['cedula'] ?></td>
+ <td><?= htmlspecialchars($r['nombres']) ?></td>
+ <td><?= date('d/m/Y',strtotime($r['pay_date'])) ?></td>
+ <td><?= number_format($r['pay_amount_bs'],2,',','.') ?></td>
+ <td><?= $r['pay_ref'] ?></td>
+ <td><?= $r['loan_id'] ?></td>
+</tr>
+<?php endwhile; ?>
+</tbody>
+<tfoot><tr><th colspan="4">Total</th><th><?= number_format($tot,2,',','.') ?></th><th colspan="2"></th></tr></tfoot>
+</table>
+</div>
+
+<!-- botones exportar -->
+<form action="export_pdf.php"  method="post" style="display:inline">
+  <input type="hidden" name="title" value="Pagos semana <?= $from ?> – <?= $to ?>">
+  <input type="hidden" name="sql"   value="<?= htmlspecialchars($sql,ENT_QUOTES) ?>">
+  <button class="btn">Descargar PDF</button>
+</form>
+
+<form action="export_xlsx.php" method="post" style="display:inline">
+  <input type="hidden" name="title" value="Pagos semana <?= $from ?> – <?= $to ?>">
+  <input type="hidden" name="sql"   value="<?= htmlspecialchars($sql,ENT_QUOTES) ?>">
+  <button class="btn">Descargar Excel</button>
+</form>
+
+</div>
+</body></html>
