@@ -1,0 +1,216 @@
+[01-May-2025 15:48:41 America/Caracas] PHP Warning:  require_once(/home/ccfaacad/public_html/credicash/reports/../vendor/fpdf/fpdf.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/morosos.php on line 2
+[01-May-2025 15:48:41 America/Caracas] PHP Fatal error:  require_once(): Failed opening required '/home/ccfaacad/public_html/credicash/reports/../vendor/fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/morosos.php on line 2
+[01-May-2025 15:49:13 America/Caracas] PHP Warning:  require_once(/home/ccfaacad/public_html/credicash/reports/../vendor/fpdf/fpdf.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/morosos.php on line 2
+[01-May-2025 15:49:13 America/Caracas] PHP Fatal error:  require_once(): Failed opening required '/home/ccfaacad/public_html/credicash/reports/../vendor/fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/morosos.php on line 2
+[01-May-2025 15:49:16 America/Caracas] PHP Warning:  require_once(/home/ccfaacad/public_html/credicash/reports/../vendor/fpdf/fpdf.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/morosos.php on line 2
+[01-May-2025 15:49:16 America/Caracas] PHP Fatal error:  require_once(): Failed opening required '/home/ccfaacad/public_html/credicash/reports/../vendor/fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/morosos.php on line 2
+[02-May-2025 12:47:24 America/Caracas] PHP Warning:  include(../nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:24 America/Caracas] PHP Warning:  include(): Failed opening '../nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:24 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:47:31 America/Caracas] PHP Warning:  include(../nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:31 America/Caracas] PHP Warning:  include(): Failed opening '../nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:31 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:47:34 America/Caracas] PHP Warning:  include(../nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:34 America/Caracas] PHP Warning:  include(): Failed opening '../nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:34 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:47:38 America/Caracas] PHP Warning:  include(../nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:38 America/Caracas] PHP Warning:  include(): Failed opening '../nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:47:38 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:48:17 America/Caracas] PHP Warning:  include(../../public/nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:48:17 America/Caracas] PHP Warning:  include(): Failed opening '../../public/nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:48:17 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:48:19 America/Caracas] PHP Warning:  include(../../public/nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:48:19 America/Caracas] PHP Warning:  include(): Failed opening '../../public/nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 35
+[02-May-2025 12:48:19 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:48:47 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:49:27 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:49:31 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:49:43 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:50:11 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:50:17 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/ccfaacad/public_html/credicash/reports/payments_daily.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 50
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 12:58:50 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 52
+[02-May-2025 13:02:45 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/reports/payments_daily.php on line 58
+[02-May-2025 13:05:11 America/Caracas] PHP Warning:  require_once(../auth/guard.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 2
+[02-May-2025 13:05:11 America/Caracas] PHP Fatal error:  require_once(): Failed opening required '../auth/guard.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 2
+[02-May-2025 13:08:43 America/Caracas] PHP Warning:  require_once(../config/db.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/auth/guard.php on line 13
+[02-May-2025 13:08:43 America/Caracas] PHP Fatal error:  require_once(): Failed opening required '../config/db.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/auth/guard.php on line 13
+[02-May-2025 13:10:16 America/Caracas] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 37
+[02-May-2025 13:10:16 America/Caracas] PHP Warning:  include(): Failed opening 'nav.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 37
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:16 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:43 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 52
+[02-May-2025 13:10:53 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 58
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:25:32 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:13 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 61
+[02-May-2025 13:26:20 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
+[02-May-2025 13:28:27 America/Caracas] PHP Notice:  Undefined index: pay_amount_bs in /home/ccfaacad/public_html/credicash/public/reports/payments_daily.php on line 67
